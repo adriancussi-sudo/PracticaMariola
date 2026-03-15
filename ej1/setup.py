@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'robot_sensor_publisher = ej1.robot_sensor_publisher:main',
+            'robot_monitor = ej1.robot_monitor:main',
+            'robot_state_node = ej1.robot_state_node:main',
         ],
     },
 )
